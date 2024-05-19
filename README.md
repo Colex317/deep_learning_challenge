@@ -30,7 +30,7 @@ From Alphabet Soup’s business team, you have received a CSV containing more th
    
 4. **Optimize the Model**
 
-      TensorFlow is used to optimize the model to achieve a target predictive accuracy higher than 75%.
+      TensorFlow was used to optimize the model to achieve a target predictive accuracy higher than 75%.
 
 # Report on the Neural Network Model
 
