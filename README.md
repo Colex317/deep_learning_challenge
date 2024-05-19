@@ -22,7 +22,7 @@ From Alphabet Soup’s business team, you have received a CSV containing more th
 ## Steps:
 1. **Preprocess the Data**
 
-      Pandas and scikit-learn’s StandardScaler were used to preprocess the dataset in preparation for Step 2.
+      Pandas and scikit-learn’s StandardScaler were used to preprocess the dataset in preparation for the next step.
    
 2. **Compile, Train, and Evaluate the Model**
 
