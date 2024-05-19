@@ -22,15 +22,15 @@ From Alphabet Soup’s business team, you have received a CSV containing more th
 ## Steps:
 1. **Preprocess the Data**
 
-   Pandas and scikit-learn’s StandardScaler were used to preprocess the dataset in preparation for Step 2.
+      Pandas and scikit-learn’s StandardScaler were used to preprocess the dataset in preparation for Step 2.
    
 2. **Compile, Train, and Evaluate the Model**
 
-   TensorFlow was used to design a ?????neural network, or deep learning model, to create a binary classification model that can predict if an Alphabet Soup-funded organization will be successful based on the features in the dataset.
+      TensorFlow was used to design a ?????neural network, or deep learning model, to create a binary classification model that can predict if an Alphabet Soup-funded organization will be successful based on the features in the dataset.
    
 4. **Optimize the Model**
 
-   TensorFlow is used to optimize the model to achieve a target predictive accuracy higher than 75%.
+      TensorFlow is used to optimize the model to achieve a target predictive accuracy higher than 75%.
 
 # Report on the Neural Network Model
 
