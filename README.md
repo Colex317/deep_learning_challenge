@@ -8,7 +8,7 @@ From Alphabet Soup’s business team, you have received a CSV containing more th
 - **EIN** and **NAME** — Identification columns
 - **APPLICATION_TYPE** — Alphabet Soup application type
 - **AFFILIATION** — Affiliated sector of industry
-- **CLASSIFICATION88 — Government organization classification
+- **CLASSIFICATION** — Government organization classification
 - **USE_CASE** — Use case for funding
 - **ORGANIZATION** — Organization type
 - **STATUS** — Active status
