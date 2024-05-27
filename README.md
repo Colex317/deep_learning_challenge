@@ -38,26 +38,54 @@ deep_learning.ipynb
 # Report on the Neural Network Model
 
 **Overview of the Analysis**
+
 The analysis aimed to develop a neural network model for a specific task, focusing on data preprocessing, model development, and evaluation.
 
 **Results**
 
 **Data Preprocessing**
 
-**Target Variable(s):** The target variable for the model is typically the outcome or the variable we are trying to predict. In this analysis, the target variable is IS_SUCCESSFUL, as indicated by the line y = application_dummies['IS_SUCCESSFUL'].values. This suggests that the model aims to predict whether or not a charity organization will be successful in its fundraising efforts.
+**Target Variable(s):** 
 
-**Features**: Feature variables are the inputs to the model that help predict the target variable. In this analysis, the features are all the columns in the application_dummies DataFrame except for the IS_SUCCESSFUL column. This is evident from the line X = application_dummies.drop(['IS_SUCCESSFUL'], axis=1).values, which drops the IS_SUCCESSFUL column from the DataFrame to create the features array X. These features include various attributes/characteristics of charity organizations, such as:
+The target variable for the model is typically the outcome or the variable we are trying to predict. 
+
+In this analysis, the target variable is IS_SUCCESSFUL, as indicated by the line y = application_dummies['IS_SUCCESSFUL'].values. This suggests that the model aims to predict whether or not a charity organization will be successful in its fundraising efforts.
+
+<img width="679" alt="image" src="https://github.com/Colex317/deep_learning_challenge/assets/148498483/e81aa202-c98b-4de3-a97a-1242fea218d8">
+
+**Features**:
+
+Feature variables are the inputs to the model that help predict the target variable. 
+
+In this analysis, the features are all the columns in the application_dummies DataFrame except for the IS_SUCCESSFUL column. This is evident from the line 
+application_dummies.drop(['IS_SUCCESSFUL'], axis=1).values, which drops the IS_SUCCESSFUL column from the DataFrame to create the features array X. These features include various attributes/characteristics of charity organizations, such as:
+
       - APPLICATION_TYPE	
+      
       - AFFILIATION	
+      
       - CLASSIFICATION	
+      
       - USE_CASE	
+      
+      - INCOME_AMT
+      
       - ORGANIZATION	
-      - STATUS	
-      - INCOME_AMT	
+      
+      - INCOME_AMT
+      
       - SPECIAL_CONSIDERATIONS	
+      
       - ASK_AMT
 
-**Variable(s) to Remove:** Variables that are neither targets nor features should be removed from the input data to avoid unnecessary complexity in the model. These variables do not contribute to the prediction task. In this analysis, the variables [EIN and MANE] were removed.
+**Variable(s) to Remove:** 
+
+Variables that are neither targets nor features should be removed from the input data to avoid unnecessary complexity in the model. These variables do not contribute to the prediction task. 
+
+In this analysis, the variables [EIN and MANE] were removed.
+
+<img width="729" alt="image" src="https://github.com/Colex317/deep_learning_challenge/assets/148498483/b70aa3e8-1a67-48d8-a4df-d0efe1fae691">
+
 
 **Compiling, Training, and Evaluating the Model**
 
