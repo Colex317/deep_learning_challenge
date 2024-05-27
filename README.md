@@ -42,7 +42,7 @@ deep_learning.ipynb
 
 **Overview of the Analysis**
 
-The analysis aimed to develop a neural network model for a specific task, focusing on data preprocessing, model development, and evaluation. Using a systematic approach to tuning various aspects of the model, the neural network model was optimized to achieve a predictive accuracy of more than 75%. This included: 
+The analysis aimed to develop a neural network model based on the features in the dataset and whether an Alphabet Soup-funded organization will be successful by focusing on data preprocessing, model development, and evaluation. Using a systematic approach to tuning various aspects of the model, the neural network model was optimized to achieve a predictive accuracy of more than 75%. This included: 
 
 - Adding more neurons to a hidden layer.
   
