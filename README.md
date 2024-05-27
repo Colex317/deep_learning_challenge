@@ -54,7 +54,9 @@ The purpose of the analysis was to develop a neural network model based on the f
 
 **Target Variable(s):**
 
-The target variable for the model is typically the outcome or the variable we are trying to predict. In this analysis, the target variable is: `IS_SUCCESSFUL`
+The target variable for the model is typically the outcome or the variable we are trying to predict. In this analysis, the target variable is:
+
+- IS_SUCCESSFUL
 
 <img width="879" alt="image" src="https://github.com/Colex317/deep_learning_challenge/assets/148498483/e81aa202-c98b-4de3-a97a-1242fea218d8">
 
@@ -62,7 +64,7 @@ The target variable for the model is typically the outcome or the variable we ar
 
 **Features**:
 
-The features are the inputs to the model that help predict the target variable. In this analysis, the features are all the columns in the application_dummies DataFrame except for the `IS_SUCCESSFUL` column, such as:
+The features are the inputs to the model that help predict the target variable. In this analysis, the features are all the columns in the application_dummies DataFrame except for the IS_SUCCESSFUL column, such as:
 
 - APPLICATION_TYPE	
             
