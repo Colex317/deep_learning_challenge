@@ -82,9 +82,12 @@ The features are the inputs to the model that help predict the target variable. 
 
 
 
-**Variable(s) to Remove:** The variables to remove are those that are neither targets nor features that should be removed from the input data to avoid unnecessary complexity in the model. These variables do not contribute to the prediction task. 
+**Variable(s) to Remove:** 
+
+The variables to remove are those that are neither targets nor features that should be removed from the input data to avoid unnecessary complexity in the model. These variables do not contribute to the prediction task. 
 
 In this analysis, the variables [EIN and NAME] were removed.
+
 
 <img width="1029" alt="image" src="https://github.com/Colex317/deep_learning_challenge/assets/148498483/b70aa3e8-1a67-48d8-a4df-d0efe1fae691">
 
