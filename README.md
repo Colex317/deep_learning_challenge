@@ -118,19 +118,18 @@ The model was built with two hidden layers.
 
 <img width="766" alt="image" src="https://github.com/Colex317/deep_learning_challenge/assets/148498483/f690200b-4ed0-4d32-a76c-f8ed8fa990e6">
 
-
+----------------------------------------------------------------------------------------------------------------------------------------------
 
 The result was **a predictive accuracy of 72.8%** 
 
 <img width="716" alt="image" src="https://github.com/Colex317/deep_learning_challenge/assets/148498483/0afb3ac3-36a8-4ad9-9e89-09ad36fa4293">
-
 
 ----------------------------------------------------------------------------------------------------------------------------------------------
 
 
 **OPTIMIZATION - FIRST MODEL:**
 
-The model was built with two hidden layers.
+The model was built with two hidden layers, and the number of neurons for each was reduced, as was the number of epochs.
 
 ***First Hidden Layer:***
 - Number of neurons: 40
@@ -149,6 +148,7 @@ The model was built with two hidden layers.
 
 <img width="710" alt="image" src="https://github.com/Colex317/deep_learning_challenge/assets/148498483/4398d9f5-0f68-41e7-b182-29563898d47e">
 
+----------------------------------------------------------------------------------------------------------------------------------------------
 
 The result was **a predictive accuracy of 73 %** 
 
@@ -160,7 +160,7 @@ The result was **a predictive accuracy of 73 %**
 
 **OPTIMIZATION - SECOND MODEL:**
 
-The model was built with three hidden layers.
+The model was built with three hidden layers; the third hidden layer uses the sigmoid activation function. The number of neurons for the first two hidden layers and the number of epochs remained the same as in the first optimization attempt.
 
 ***First Hidden Layer:***
 - Number of neurons: 40
@@ -183,23 +183,19 @@ The model was built with three hidden layers.
 
 <img width="765" alt="image" src="https://github.com/Colex317/deep_learning_challenge/assets/148498483/d6ee61d0-df40-4e75-b596-6c51b0cbef70">
 
-
+----------------------------------------------------------------------------------------------------------------------------------------------
 
 The result was **a predictive accuracy of 73 %** 
 
 <img width="737" alt="image" src="https://github.com/Colex317/deep_learning_challenge/assets/148498483/364b20c8-00c7-4c94-9c75-63319e263870">
 
-
-
 ----------------------------------------------------------------------------------------------------------------------------------------------
-**Were you able to achieve the target model performance?**
-
 
 **Steps taken in an attempt to increase the model performance included:**
 
-Using a systematic approach to tuning various aspects of the model, the neural network model was optimized to achieve a predictive accuracy of more than 75%.
+To optimize the neural network model to get to a predictive accuracy of more than 75%, the following were done:
 
-- Adding more neurons to a hidden layer.
+- Reducing more neurons to a hidden layer.
   
 - Adding more hidden layers.
   
@@ -208,5 +204,12 @@ Using a systematic approach to tuning various aspects of the model, the neural n
 - Reducing the number of epochs in the training regimen.
 
 
+**Were you able to achieve the target model performance?**
+
+No, the optimization was done several times with few improvements; only a slight increase in accuracy was observed. It did not reach a predictive accuracy of 75%, the highest score reached was 73%.
+
 ## Summary
-Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and then explain your recommendation.
+
+The deep learning model was optimized through various iterations to achieve a predictive accuracy of more than 75% for the classification problem. Several strategies were employed, including adjusting the number of neurons in hidden layers, adding more hidden layers, experimenting with different activation functions, and reducing the number of epochs in the training regimen. Despite these efforts, the model performance plateaued, with the highest achieved accuracy reaching only 73%.
+
+Include a recommendation for how a different model could solve this classification problem, and then explain your recommendation.
