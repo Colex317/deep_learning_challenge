@@ -128,7 +128,7 @@ The result was **a predictive accuracy of 72.8%**
 ----------------------------------------------------------------------------------------------------------------------------------------------
 
 
-**OPTIMIZATION - FIRST ATTEMPT:**
+**OPTIMIZATION - FIRST MODEL:**
 
 The model was built with two hidden layers.
 
@@ -158,7 +158,7 @@ The result was **a predictive accuracy of 73 %**
 ----------------------------------------------------------------------------------------------------------------------------------------------
 
 
-**OPTIMIZATION - SECOND ATTEMPT:**
+**OPTIMIZATION - SECOND MODEL:**
 
 The model was built with three hidden layers.
 
