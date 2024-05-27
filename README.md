@@ -92,7 +92,7 @@ In this analysis, the variables [EIN and NAME] were removed.
 
 
 
-**[Compiling, Training, and Evaluating the Model]**
+[**Compiling, Training, and Evaluating the Model**]
 
 **Number of neurons, layers, and activation functions used for the neural network model**
 
