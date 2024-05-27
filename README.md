@@ -56,7 +56,7 @@ The target variable for the model is typically the outcome or the variable we ar
 
 <img width="879" alt="image" src="https://github.com/Colex317/deep_learning_challenge/assets/148498483/e81aa202-c98b-4de3-a97a-1242fea218d8">
 
-
+----------------------------------------------------------------------------------------------------------------------------------------------
 
 **Features**:
 
@@ -91,22 +91,38 @@ In this analysis, the variables [EIN and NAME] were removed.
 
 <img width="1029" alt="image" src="https://github.com/Colex317/deep_learning_challenge/assets/148498483/b70aa3e8-1a67-48d8-a4df-d0efe1fae691">
 
+----------------------------------------------------------------------------------------------------------------------------------------------
 
 
 ### Compiling, Training, and Evaluating the Model
 
-**Number of neurons, layers, and activation functions used for the neural network model**
-
 **INITIAL MODEL:**
 
-**# of neurons:** 
+The model was built with two hidden layers.
 
-**# of layers:**
+***First Hidden Layer:***
 
-**activation functions:##
+Number of neurons: 80
+
+Activation function: ReLU (Rectified Linear Unit)
+
+***Second Hidden Layer:***
+
+Number of neurons: 30
+
+Activation function: ReLU (Rectified Linear Unit)
+
+***Output Layer:***
+
+The output layer consists of a single neuron, as indicated by units = 1.
+
+Activation function: Sigmoid
 
 
-<img width="774" alt="image" src="https://github.com/Colex317/deep_learning_challenge/assets/148498483/acd227ad-56fb-4211-bb0c-a142a0c6ed07">
+<img width="780" alt="image" src="https://github.com/Colex317/deep_learning_challenge/assets/148498483/d84ad98b-a981-4d34-84de-ae6d62dd4faa">
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+
 
 
 **Were you able to achieve the target model performance?**
