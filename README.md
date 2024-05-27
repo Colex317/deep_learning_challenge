@@ -84,7 +84,7 @@ The features are the inputs to the model that help predict the target variable. 
 
 **Variable(s) to Remove:** 
 
-The variables to remove are those that are neither targets nor features that should be removed from the input data to avoid unnecessary complexity in the model. These variables do not contribute to the prediction task. 
+The variables to remove are those that are neither targets nor features to avoid unnecessary complexity in the model. These variables do not contribute to the prediction task. 
 
 In this analysis, the variables [EIN and NAME] were removed.
 
