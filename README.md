@@ -115,9 +115,12 @@ The model was built with two hidden layers.
 
 <img width="780" alt="image" src="https://github.com/Colex317/deep_learning_challenge/assets/148498483/d84ad98b-a981-4d34-84de-ae6d62dd4faa">
 
+
+
 The result was **a predictive accuracy of 72.7%** 
 
-<img width="735" alt="image" src="https://github.com/Colex317/deep_learning_challenge/assets/148498483/4db725e1-e593-47c6-9546-e45346cc9e58">
+<img width="713" alt="image" src="https://github.com/Colex317/deep_learning_challenge/assets/148498483/5ca7423a-70bb-4179-977e-fa1573fa8481">
+
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------------
