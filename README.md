@@ -62,6 +62,8 @@ In this analysis, the target variable is IS_SUCCESSFUL, as indicated by the line
 
 <img width="879" alt="image" src="https://github.com/Colex317/deep_learning_challenge/assets/148498483/e81aa202-c98b-4de3-a97a-1242fea218d8">
 
+
+
 **Features**: The features are the inputs to the model that help predict the target variable. 
 
 In this analysis, the features are all the columns in the application_dummies DataFrame except for the IS_SUCCESSFUL column. This is evident from the line 
@@ -84,6 +86,8 @@ application_dummies.drop(['IS_SUCCESSFUL'], axis=1).values, which drops the IS_S
 - SPECIAL_CONSIDERATIONS	
             
 - ASK_AMT
+
+
 
 **Variable(s) to Remove:** The variables to remove are those that are neither targets nor features that should be removed from the input data to avoid unnecessary complexity in the model. These variables do not contribute to the prediction task. 
 
