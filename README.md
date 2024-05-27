@@ -38,16 +38,26 @@ deep_learning.ipynb
 # Report on the Neural Network Model
 
 **Overview of the Analysis**
-Explain the purpose of this analysis.
+The analysis aimed to develop a neural network model for a specific task, focusing on data preprocessing, model development, and evaluation.
 
 **Results**
-Using bulleted lists and images to support your answers, address the following questions:
 
 **Data Preprocessing**
 
-- What variable(s) are the target(s) for your model?
-- What variable(s) are the features for your model?
-- What variable(s) should be removed from the input data because they are neither targets nor features?
+**Target Variable(s):** The target variable for the model is typically the outcome or the variable we are trying to predict. In this analysis, the target variable is IS_SUCCESSFUL, as indicated by the line y = application_dummies['IS_SUCCESSFUL'].values. This suggests that the model aims to predict whether or not a charity organization will be successful in its fundraising efforts.
+
+**Features**: Feature variables are the inputs to the model that help predict the target variable. In this analysis, the features are all the columns in the application_dummies DataFrame except for the IS_SUCCESSFUL column. This is evident from the line X = application_dummies.drop(['IS_SUCCESSFUL'], axis=1).values, which drops the IS_SUCCESSFUL column from the DataFrame to create the features array X. These features include various attributes/characteristics of charity organizations, such as:
+      - APPLICATION_TYPE	
+      - AFFILIATION	
+      - CLASSIFICATION	
+      - USE_CASE	
+      - ORGANIZATION	
+      - STATUS	
+      - INCOME_AMT	
+      - SPECIAL_CONSIDERATIONS	
+      - ASK_AMT
+
+**Variable(s) to Remove:** Variables that are neither targets nor features should be removed from the input data to avoid unnecessary complexity in the model. These variables do not contribute to the prediction task. In this analysis, the variables [EIN and MANE] were removed.
 
 **Compiling, Training, and Evaluating the Model**
 
