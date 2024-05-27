@@ -102,21 +102,21 @@ The model was built with two hidden layers.
 
 ***First Hidden Layer:***
 
-Number of neurons: 80
+- Number of neurons: 80
 
-Activation function: ReLU (Rectified Linear Unit)
+- Activation function: ReLU (Rectified Linear Unit)
 
 ***Second Hidden Layer:***
 
-Number of neurons: 30
+- Number of neurons: 30
 
-Activation function: ReLU (Rectified Linear Unit)
+- Activation function: ReLU (Rectified Linear Unit)
 
 ***Output Layer:***
 
-The output layer consists of a single neuron, as indicated by units = 1.
+- The output layer consists of a single neuron, as indicated by units = 1.
 
-Activation function: Sigmoid
+- Activation function: Sigmoid
 
 
 <img width="780" alt="image" src="https://github.com/Colex317/deep_learning_challenge/assets/148498483/d84ad98b-a981-4d34-84de-ae6d62dd4faa">
