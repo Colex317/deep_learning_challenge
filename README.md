@@ -112,15 +112,47 @@ The model was built with two hidden layers.
 - The output layer consists of a single neuron, as indicated by units = 1.
 - Activation function: Sigmoid
 
+**Epochs**
+- Number of epochs to the training regimen: 100
 
-<img width="780" alt="image" src="https://github.com/Colex317/deep_learning_challenge/assets/148498483/d84ad98b-a981-4d34-84de-ae6d62dd4faa">
+
+<img width="766" alt="image" src="https://github.com/Colex317/deep_learning_challenge/assets/148498483/f690200b-4ed0-4d32-a76c-f8ed8fa990e6">
 
 
 
 The result was **a predictive accuracy of 72.8%** 
 
-<img width="713" alt="image" src="https://github.com/Colex317/deep_learning_challenge/assets/148498483/5ca7423a-70bb-4179-977e-fa1573fa8481">
+<img width="716" alt="image" src="https://github.com/Colex317/deep_learning_challenge/assets/148498483/0afb3ac3-36a8-4ad9-9e89-09ad36fa4293">
 
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+
+**OPTIMIZATION: FIRST ATTEMPT:**
+
+The model was built with two hidden layers.
+
+***First Hidden Layer:***
+- Number of neurons: 40
+- Activation function: ReLU (Rectified Linear Unit)
+
+***Second Hidden Layer:***
+- Number of neurons: 15
+- Activation function: ReLU (Rectified Linear Unit)
+
+***Output Layer:***
+- The output layer consists of a single neuron, as indicated by units = 1.
+- Activation function: Sigmoid
+
+**Epochs**
+- Number of epochs to the training regimen: 10
+
+<img width="710" alt="image" src="https://github.com/Colex317/deep_learning_challenge/assets/148498483/4398d9f5-0f68-41e7-b182-29563898d47e">
+
+
+The result was **a predictive accuracy of 73.1%** 
+
+<img width="716" alt="image" src="https://github.com/Colex317/deep_learning_challenge/assets/148498483/c34ff125-3b00-4e77-8d20-38e416e85a2e">
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------------
