@@ -44,15 +44,8 @@ deep_learning.ipynb
 
 ## Overview of the Analysis
 
-The analysis aimed to develop a neural network model based on the features in the dataset and whether an Alphabet Soup-funded organization will be successful by focusing on data preprocessing, model development, and evaluation. Using a systematic approach to tuning various aspects of the model, the neural network model was optimized to achieve a predictive accuracy of more than 75%. This included: 
+The analysis aimed to develop a neural network model based on the features in the dataset and whether an Alphabet Soup-funded organization will be successful by focusing on data preprocessing, model development, and evaluation. Using a systematic approach to tuning various aspects of the model, the neural network model was optimized to achieve a predictive accuracy of more than 75%.
 
-- Adding more neurons to a hidden layer.
-  
-- Adding more hidden layers.
-  
-- Using different activation functions for the hidden layers.
-  
-- Reducing the number of epochs in the training regimen.
 
 ## Results
 
@@ -98,11 +91,25 @@ In this analysis, the variables [EIN and NAME] were removed.
 <img width="1029" alt="image" src="https://github.com/Colex317/deep_learning_challenge/assets/148498483/b70aa3e8-1a67-48d8-a4df-d0efe1fae691">
 
 
-**Compiling, Training, and Evaluating the Model**
 
-- How many neurons, layers, and activation functions did you select for your neural network model, and why?
-- Were you able to achieve the target model performance?
-- What steps did you take in your attempts to increase model performance?
+**[Compiling, Training, and Evaluating the Model]**
+
+**Number of neurons, layers, and activation functions used for the neural network model**
+
+
+**Were you able to achieve the target model performance?**
+
+
+**Steps taken in an attempt to increase the model performance included:**
+
+- Adding more neurons to a hidden layer.
+  
+- Adding more hidden layers.
+  
+- Using different activation functions for the hidden layers.
+  
+- Reducing the number of epochs in the training regimen.
+
 
 ## Summary
 Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and then explain your recommendation.
