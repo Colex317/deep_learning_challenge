@@ -40,7 +40,7 @@ deep_learning.ipynb
 
 # Report on the Neural Network Model
 
-**Overview of the Analysis**
+## Overview of the Analysis
 
 The analysis aimed to develop a neural network model based on the features in the dataset and whether an Alphabet Soup-funded organization will be successful by focusing on data preprocessing, model development, and evaluation. Using a systematic approach to tuning various aspects of the model, the neural network model was optimized to achieve a predictive accuracy of more than 75%. This included: 
 
@@ -52,7 +52,7 @@ The analysis aimed to develop a neural network model based on the features in th
   
 - Reducing the number of epochs in the training regimen.
 
-**Results**
+## Results
 
 **Data Preprocessing**
 
@@ -98,5 +98,5 @@ In this analysis, the variables [EIN and NAME] were removed.
 - Were you able to achieve the target model performance?
 - What steps did you take in your attempts to increase model performance?
 
-**Summary**
+## Summary
 Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and then explain your recommendation.
