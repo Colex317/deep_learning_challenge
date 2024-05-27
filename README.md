@@ -61,21 +61,21 @@ In this analysis, the features are all the columns in the application_dummies Da
 application_dummies.drop(['IS_SUCCESSFUL'], axis=1).values, which drops the IS_SUCCESSFUL column from the DataFrame to create the features array X. These features include various attributes/characteristics of charity organizations, such as:
 
       - APPLICATION_TYPE	
-      
+            
       - AFFILIATION	
-      
+            
       - CLASSIFICATION	
-      
+            
       - USE_CASE	
-      
+            
       - INCOME_AMT
-      
+            
       - ORGANIZATION	
-      
+            
       - INCOME_AMT
-      
+            
       - SPECIAL_CONSIDERATIONS	
-      
+            
       - ASK_AMT
 
 **Variable(s) to Remove:** 
