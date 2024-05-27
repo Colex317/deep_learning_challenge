@@ -29,7 +29,7 @@ deep_learning.ipynb
    
 2. **Compile, Train, and Evaluate the Model**
 
-      TensorFlow was used to design a ?????neural network, or deep learning model, to create a binary classification model that can predict if an Alphabet Soup-funded organization will be successful based on the features in the dataset.
+      TensorFlow was used to design a neural network model that can predict, based on the features in the dataset, whether an Alphabet Soup-funded organization will be successful.
    
 4. **Optimize the Model**
 
