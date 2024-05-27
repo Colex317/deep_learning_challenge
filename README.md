@@ -109,7 +109,7 @@ The model was built with two hidden layers.
 - Activation function: ReLU (Rectified Linear Unit)
 
 ***Output Layer:***
-- The output layer consists of a single neuron, as indicated by units = 1.
+- The output layer consists of a single neuron
 - Activation function: Sigmoid
 
 **Epochs**
@@ -141,7 +141,7 @@ The model was built with two hidden layers.
 - Activation function: ReLU (Rectified Linear Unit)
 
 ***Output Layer:***
-- The output layer consists of a single neuron, as indicated by units = 1.
+- The output layer consists of a single neuron
 - Activation function: Sigmoid
 
 **Epochs**
@@ -150,7 +150,7 @@ The model was built with two hidden layers.
 <img width="710" alt="image" src="https://github.com/Colex317/deep_learning_challenge/assets/148498483/4398d9f5-0f68-41e7-b182-29563898d47e">
 
 
-The result was **a predictive accuracy of 73.1%** 
+The result was **a predictive accuracy of 73 %** 
 
 <img width="716" alt="image" src="https://github.com/Colex317/deep_learning_challenge/assets/148498483/c34ff125-3b00-4e77-8d20-38e416e85a2e">
 
@@ -158,7 +158,40 @@ The result was **a predictive accuracy of 73.1%**
 ----------------------------------------------------------------------------------------------------------------------------------------------
 
 
+**OPTIMIZATION - SECOND ATTEMPT:**
 
+The model was built with three hidden layers.
+
+***First Hidden Layer:***
+- Number of neurons: 40
+- Activation function: ReLU (Rectified Linear Unit)
+
+***Second Hidden Layer:***
+- Number of neurons: 15
+- Activation function: ReLU (Rectified Linear Unit)
+
+***Third Hidden Layer:***
+- Number of neurons: 10
+- Activation function: Sigmoid
+
+***Output Layer:***
+- The output layer consists of a single neuron
+- Activation function: Sigmoid
+
+**Epochs**
+- Number of epochs to the training regimen: 10
+
+<img width="765" alt="image" src="https://github.com/Colex317/deep_learning_challenge/assets/148498483/d6ee61d0-df40-4e75-b596-6c51b0cbef70">
+
+
+
+The result was **a predictive accuracy of 73 %** 
+
+<img width="737" alt="image" src="https://github.com/Colex317/deep_learning_challenge/assets/148498483/364b20c8-00c7-4c94-9c75-63319e263870">
+
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------
 **Were you able to achieve the target model performance?**
 
 
