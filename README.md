@@ -101,21 +101,15 @@ In this analysis, the variables [EIN and NAME] were removed.
 The model was built with two hidden layers.
 
 ***First Hidden Layer:***
-
 - Number of neurons: 80
-
 - Activation function: ReLU (Rectified Linear Unit)
 
 ***Second Hidden Layer:***
-
 - Number of neurons: 30
-
 - Activation function: ReLU (Rectified Linear Unit)
 
 ***Output Layer:***
-
 - The output layer consists of a single neuron, as indicated by units = 1.
-
 - Activation function: Sigmoid
 
 
