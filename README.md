@@ -40,29 +40,29 @@ deep_learning.ipynb
 
       TensorFlow was used to optimize the model to achieve a target predictive accuracy higher than 75%.
 
+
+
 # Report on the Neural Network Model
 
 ## Overview of the Analysis
 
-The analysis aimed to develop a neural network model based on the features in the dataset and whether an Alphabet Soup-funded organization will be successful by focusing on data preprocessing, model development, and evaluation. Using a systematic approach to tuning various aspects of the model, the neural network model was optimized to achieve a predictive accuracy of more than 75%.
-
+The purpose of the analysis was to develop a neural network model based on the features in the dataset to predict whether the Alphabet Soup-funded organization will be successful by focusing on data preprocessing, model development, and evaluation. 
 
 ## Results
 
-**Data Preprocessing**
+### Data Preprocessing
 
-**Target Variable(s):** The target variable for the model is typically the outcome or the variable we are trying to predict. 
+**Target Variable(s):**
 
-In this analysis, the target variable is `IS_SUCCESSFUL`, as indicated by the line `y = application_dummies['IS_SUCCESSFUL'].values`. This suggests that the model aims to predict whether or not a charity organization will be successful in its fundraising efforts.
+The target variable for the model is typically the outcome or the variable we are trying to predict. In this analysis, the target variable is: `IS_SUCCESSFUL`
 
 <img width="879" alt="image" src="https://github.com/Colex317/deep_learning_challenge/assets/148498483/e81aa202-c98b-4de3-a97a-1242fea218d8">
 
 
 
-**Features**: The features are the inputs to the model that help predict the target variable. 
+**Features**:
 
-In this analysis, the features are all the columns in the application_dummies DataFrame except for the `IS_SUCCESSFUL` column. This is evident from the line 
-`application_dummies.drop(['IS_SUCCESSFUL'], axis=1).values`, which drops the `IS_SUCCESSFUL` column from the DataFrame to create the features array X. These features include various attributes/characteristics of charity organizations, such as:
+The features are the inputs to the model that help predict the target variable. In this analysis, the features are all the columns in the application_dummies DataFrame except for the `IS_SUCCESSFUL` column, such as:
 
 - APPLICATION_TYPE	
             
@@ -92,15 +92,28 @@ In this analysis, the variables [EIN and NAME] were removed.
 
 
 
-**Compiling, Training, and Evaluating the Model**
+### Compiling, Training, and Evaluating the Model
 
 **Number of neurons, layers, and activation functions used for the neural network model**
+
+**INITIAL MODEL:**
+
+**# of neurons:** 
+
+**# of layers:**
+
+**activation functions:##
+
+
+<img width="774" alt="image" src="https://github.com/Colex317/deep_learning_challenge/assets/148498483/acd227ad-56fb-4211-bb0c-a142a0c6ed07">
 
 
 **Were you able to achieve the target model performance?**
 
 
 **Steps taken in an attempt to increase the model performance included:**
+
+Using a systematic approach to tuning various aspects of the model, the neural network model was optimized to achieve a predictive accuracy of more than 75%.
 
 - Adding more neurons to a hidden layer.
   
