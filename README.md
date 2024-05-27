@@ -42,7 +42,7 @@ deep_learning.ipynb
 
 ## Overview of the Analysis
 
-The purpose of the analysis was to develop a neural network model based on the features in the dataset to predict whether the Alphabet Soup-funded organization will be successful by focusing on data preprocessing, model development, and evaluation. 
+The purpose of the analysis was to develop a neural network model based on the features in the dataset to predict whether the Alphabet Soup-funded organization will be successful.
 
 ## Results
 
