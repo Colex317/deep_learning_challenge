@@ -128,7 +128,7 @@ The result was **a predictive accuracy of 72.8%**
 ----------------------------------------------------------------------------------------------------------------------------------------------
 
 
-**OPTIMIZATION: FIRST ATTEMPT:**
+**OPTIMIZATION - FIRST ATTEMPT:**
 
 The model was built with two hidden layers.
 
