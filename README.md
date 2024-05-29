@@ -191,6 +191,41 @@ The result was **a predictive accuracy of 73 %**
 
 ----------------------------------------------------------------------------------------------------------------------------------------------
 
+**OPTIMIZATION - THIRD MODEL:**
+
+The model was built with three hidden layers. The number of neurons and epochs was increased (higher than the second attempt).
+
+***First Hidden Layer:***
+- Number of neurons: 50
+- Activation function: ReLU (Rectified Linear Unit)
+
+***Second Hidden Layer:***
+- Number of neurons: 25
+- Activation function: Tanh
+
+***Third Hidden Layer:***
+- Number of neurons: 15
+- Activation function: Sigmoid
+
+***Output Layer:***
+- The output layer consists of a single neuron
+- Activation function: Sigmoid
+
+**Epochs**
+- Number of epochs to the training regimen: 20
+
+<img width="794" alt="image" src="https://github.com/Colex317/deep_learning_challenge/assets/148498483/690e1f76-39cc-4a23-a4dd-35134b53c4de">
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+The result was **a predictive accuracy of 73 %** 
+
+<img width="768" alt="image" src="https://github.com/Colex317/deep_learning_challenge/assets/148498483/4f40005c-66ee-4a3b-adba-0f5718a151ad">
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+
 **Steps taken in an attempt to increase the model performance included:**
 
 To optimize the neural network model to get to a predictive accuracy of more than 75%, the following were done:
@@ -212,4 +247,11 @@ No, the optimization was done several times with few improvements; only a slight
 
 The deep learning model was optimized through various iterations to achieve a predictive accuracy of more than 75% for the classification problem. Several strategies were employed, including adjusting the number of neurons in hidden layers, adding more hidden layers, experimenting with different activation functions, and reducing the number of epochs in the training regimen. Despite these efforts, the model performance plateaued, with the highest achieved accuracy reaching only 73%.
 
-Include a recommendation for how a different model could solve this classification problem, and then explain your recommendation.
+Considering the challenges encountered in optimizing the deep learning model, it's advisable to explore alternative approaches. One potential solution could involve leveraging ensemble learning techniques, such as Random Forest and boosting (Khan, Chaundhari & Chandra, 2024). Ensemble learning methods combine multiple models to obtain a comprehensive and robust model and produce better results than other algorithms for datasets with class imbalance problems. 
+
+### References
+
+Khan, A.A., Chaundhari.O., & Chandra, R. (2024). A review of ensemble learning and data augmentation models for class imbalanced problems: Combination, implementation, and evaluation. ***Expert Systems with Applications***. https://doi.org/10.1016/j.eswa.2023.122778
+
+
+
