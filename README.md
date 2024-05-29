@@ -19,8 +19,17 @@ From Alphabet Soup’s business team, you have received a CSV containing more th
 - **IS_SUCCESSFUL** — Was the money used effectively
 
 ## Files Included
+- [Resources](https://github.com/Colex317/deep_learning_challenge/tree/main/Resources) - contains the charity_data_csv
 
-deep_learning.ipynb
+- [h5Files](https://github.com/Colex317/deep_learning_challenge/tree/main/h5Files) - contains the optimization attempts h5 format files
+
+- [AlphabetSoupCharity.ipynb](https://github.com/Colex317/deep_learning_challenge/blob/main/AlphabetSoupCharity.ipynb)
+
+- [AlphabetSoupCharity_Optimization_FirstAttempt.ipynb](https://github.com/Colex317/deep_learning_challenge/blob/main/AlphabetSoupCharity_Optimization_FirstAttempt.ipynb)
+
+- [AlphabetSoupCharity_Optimization_SecondAttempt.ipynb](https://github.com/Colex317/deep_learning_challenge/blob/main/AlphabetSoupCharity_Optimization_SecondAttempt.ipynb)
+
+- [AlphabetSoupCharity_Optimization_ThirdAttempt.ipynb](https://github.com/Colex317/deep_learning_challenge/blob/main/AlphabetSoupCharity_Optimization_ThirdAttempt.ipynb)
 
 
 ## Steps:
