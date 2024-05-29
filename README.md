@@ -245,7 +245,7 @@ No, the optimization was done several times with few improvements; only a slight
 
 ## Summary
 
-The deep learning model was optimized through various iterations to achieve a predictive accuracy of more than 75% for the classification problem. Several strategies were employed, including adjusting the number of neurons in hidden layers, adding more hidden layers, experimenting with different activation functions, and reducing the number of epochs in the training regimen. Despite these efforts, the model performance plateaued, with the highest achieved accuracy reaching only 73%.
+The deep learning model was optimized through various iterations to achieve a predictive accuracy of more than 75%. Several strategies were employed, including adjusting the number of neurons in hidden layers, adding more hidden layers, experimenting with different activation functions, and reducing the number of epochs in the training regimen. Despite these efforts, the model performance plateaued, with the highest achieved accuracy reaching only 73%.
 
 Considering the challenges encountered in optimizing the deep learning model, it's advisable to explore alternative approaches. One potential solution could involve leveraging ensemble learning techniques, such as Random Forest and boosting (Khan, Chaundhari & Chandra, 2024). Ensemble learning methods combine multiple models to obtain a comprehensive and robust model and produce better results than other algorithms for datasets with class imbalance problems. 
 
